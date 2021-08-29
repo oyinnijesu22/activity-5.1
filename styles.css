@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  color: white;
+  background: black;
+}
+.main-content{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  padding-left: 150px;
+}
+body > div > div{
+  padding-left: 300px;
+  padding-right: 120px;
+}
+body > div > div > img:nth-child(1){
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+h1{
+ color: #f7d7c8; 
+ padding-top: 40px;
+ padding-left: 80px;
+}
+h5{
+  color: #f7d7c8;  
+  padding-left: 100px;
+  padding-bottom: 20px; 
+  padding-top: 10px;
+}
+.social-media{
+  padding-left: 150px;
+  margin-top: 15px;
+
+}
+body > div > div > img:nth-child(3){
+  padding-top: 20px;
+  padding-left: 80px;
+}
+body > div > div > div > img:nth-child(1){
+  padding-left: 10px;
+}
+body > div > div > div > img:nth-child(2){
+  padding-left: 20px;
+}
+body > div > div > div > img:nth-child(3){
+  padding-left: 20px; 
+}
+.about-me{
+  display: flex;
+  gap: 17%;
+  justify-content: space-between;
+}
+body > div > div > section > div:nth-child(1) > h2:nth-child(1){
+  color: #f7d7c8;
+}
+body > div > div > section > div:nth-child(2) > h4{
+  color: #f7d7c8;
+}
